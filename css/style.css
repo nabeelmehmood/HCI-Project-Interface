@@ -1,0 +1,45 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.bold-font{
+	font-family: "The Bold Font"
+}
+
+@font-face {
+    font-family: 'The Bold Font';
+    src: url('../fonts/theboldfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow:0px 1px 11px 3px rgba(0,0,0,0.4)
+}
+
+.rounded-image{
+	border-radius:50%;
+}
+
+.active{
+	background-color: #ba68c8 !important;
+	transition: 0.3s;
+}
+
+.active:hover{
+	background-color: #9d53aa !important
+}
