@@ -43,3 +43,9 @@
 .active:hover{
 	background-color: #9d53aa !important
 }
+
+@media only screen and (min-width: 993px){
+	nav .nav-wrapper{
+		width:80%;
+	}
+}
