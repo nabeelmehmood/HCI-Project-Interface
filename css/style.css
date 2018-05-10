@@ -75,3 +75,13 @@
 		width:80%;
 	}
 }
+
+.levelsbanner{
+	transition:0.3s;
+	padding:10px;
+}
+
+.levelsbanner:hover{
+	transition:0.3s;
+	padding:30px;
+}
