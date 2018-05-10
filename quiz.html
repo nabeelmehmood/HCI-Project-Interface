@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>NLN Education</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+  <nav class="white" role="navigation" style = "box-shadow:0px 1px 11px 3px black">
+
+    <div class="nav-wrapper container">
+
+		<a id="logo-container" href="#" class="brand-logo" ><a class="blue-text bold-font text-lighten-2" style = "font-size: 32px" >NLN</a><a class="text-lighten-2 purple-text bold-font" style = "font-size: 32px">&nbspEducation</a></a>
+
+	      <ul class="right hide-on-med-and-down non-active">
+	        <li><a href="level3.html" class="purple-text text-lighten-2" style = "font-weight: bold">Level 3</a></li>
+
+	      </ul>
+        <ul class="right hide-on-med-and-down non-active">
+          <li><a href="level2.hmtl"class="purple-text text-lighten-2" style = "font-weight: bold">Level 2</a></li>
+
+        </ul>
+        <ul class="right hide-on-med-and-down activeheader">
+          <li><a href="level1.html" class="white-text text-lighten-2" style = "font-weight: bold">Level 1</a></li>
+
+        </ul>
+        <ul class="right hide-on-med-and-down non-active">
+          <li><a href="index.html" class="purple-text text-lighten-2" style = "font-weight: bold">Home</a></li>
+
+        </ul>
+
+	      <ul id="nav-mobile" class="sidenav">
+	        <li><a href="index.html">Home</a></li>
+          <li><a href="level1.html">Level 1</a></li>
+          <li><a href="level2.html">Level 2</a></li>
+          <li><a href="level3.html">Level 3</a></li>
+
+	      </ul>
+	      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons blue-text text-lighten-2">menu</i></a>
+
+    </div>
+    <div class="row" id="header-bar" style="min-height:5px; z-index:9999">
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("header-bar");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+    </script>
+       <div class="red lighten-2 col s1" style="min-height:5px"></div>
+       <div class="pink lighten-2 col s1" style="min-height:5px"></div>
+       <div class="purple lighten-2 col s1" style="min-height:5px"></div>
+       <div class="indigo lighten-2 col s1" style="min-height:5px"></div>
+       <div class="blue lighten-2 col s1" style="min-height:5px"></div>
+       <div class="cyan lighten-2 col s1" style="min-height:5px"></div>
+       <div class="teal lighten-2 col s1" style="min-height:5px"></div>
+       <div class="green lighten-2 col s1" style="min-height:5px"></div>
+       <div class="light-green accent-2 col s1" style="min-height:5px"></div>
+       <div class="lime lighten-2 col s1" style="min-height:5px"></div>
+       <div class="orange lighten-2 col s1" style="min-height:5px"></div>
+       <div class="deep-orange lighten-2 col s1" style="min-height:5px"></div>
+    </div>
+
+  </nav>
+  <div class="container" >
+    <div class="row">
+      <h1 class="bold-font purple-text">Quiz</h1>
+      <div style=" padding:14% 5%; background-image:url('images/parrots.jpg'); background-size:cover">
+          <h1 class="bold-font white-text" style="margin:0">Animals</h1>
+
+      </div>
+    </div>
+    <h5 style="margin:30px 0">Can you guess the all these animals correctly? Lets find out!</h5>
+    <div class="center row" style="padding-top:10px; margin-bottom:50px">
+      <a id="quizstartbutton" class="waves-effect waves-light purple btn-large" style="width:100%">Start Quiz</a>
+    </div>
+  </div>
+  
+
+  <div>
+
+  </div>
+
+
+  <footer class="page-footer purple lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Group Information</h5>
+          <p class="grey-text text-lighten-4">
+            We are a group of students from FAST-NU, Lahore, working on this project for the course - Human Computer Interaction.
+          </p>
+
+
+        </div>
+     
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by: <a class="purple-text text-accent-1">Nimra Arif, Nabeel Mehmood <span class="white-text">and</span> Lalain Ahmad Khalid</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <div class="modalbg">
+    <a id="close" class="white-text right" style="cursor:pointer"><img src="images/close.png"></a>
+    <div id="q1" class="white container" style="padding-bottom:50px">
+      <div style="padding:20%; background-image:url('images/lion.jpg'); background-size:cover;"></div>
+      <div class="container">
+       <h5 style="margin:20px 0">What animal is this?</h5>
+       <div class="row">
+             <a  class="col s5 next1 quizbuttons waves-effect waves-light purple btn left">A: Lion</a>
+             <a  class="col s5 next1 quizbuttons waves-effect waves-light purple btn right">B: Elephant</a>
+        </div>
+        <div class="row">
+              <a  class="col s5 next1 quizbuttons waves-effect waves-light purple btn left">c: Dog</a>
+              <a  class="col s5 next1 quizbuttons waves-effect waves-light purple btn right">D: Zebra</a>
+         </div>
+         <div class="row">
+               <a class="col s2 next1 quizbuttons waves-effect waves-light blue btn right">Next</a>
+               <a id="" class="disabled col s2 quizbuttons waves-effect waves-light blue btn left">Previous</a>
+          </div>
+      </div>
+    </div>
+
+    <div id="q2" class="white container" style="padding-bottom:50px; display:none">
+      <div style="padding:20%; background-image:url('images/elephant.jpg'); background-size:cover;"></div>
+      <div class="container">
+       <h5 style="margin:20px 0">What animal is this?</h5>
+       <div class="row">
+             <a class="col next2 s5 quizbuttons waves-effect waves-light purple btn left">A: Lion</a>
+             <a  class="col next2 s5 quizbuttons waves-effect waves-light purple btn right">B: Elephant</a>
+        </div>
+        <div class="row">
+              <a  class="col next2 s5 quizbuttons waves-effect waves-light purple btn left">c: Dog</a>
+              <a  class="col next2 s5 quizbuttons waves-effect waves-light purple btn right">D: Zebra</a>
+         </div>
+         <div class="row">
+               <a  class="col next2 s2 quizbuttons waves-effect waves-light blue btn right">Next</a>
+               <a  id = "prevbutton1" class="col s2 quizbuttons waves-effect waves-light blue btn left">Previous</a>
+          </div>
+      </div>
+    </div>
+
+     <div id="q3" class="white container" style="padding-bottom:50px; display:none">
+      <div style="padding:20%; background-image:url('images/wolf.jpg'); background-size:cover;"></div>
+      <div class="container">
+       <h5 style="margin:20px 0">What animal is this?</h5>
+       <div class="row">
+             <a class="col next3 s5 quizbuttons waves-effect waves-light purple btn left">A: Lion</a>
+             <a  class="col next3 s5 quizbuttons waves-effect waves-light purple btn right">B: Wolf</a>
+        </div>
+        <div class="row">
+              <a  class="col next3 s5 quizbuttons waves-effect waves-light purple btn left">c: Duck</a>
+              <a  class="col next3 s5 quizbuttons waves-effect waves-light purple btn right">D: Crocodile</a>
+         </div>
+         <div class="row">
+               <a  class="col next3 s2 quizbuttons waves-effect waves-light blue btn right">Next</a>
+               <a id = "prevbutton2" class="col next3 s2 quizbuttons waves-effect waves-light blue btn left">Previous</a>
+          </div>
+      </div>
+      </div>
+
+      <div id="q4" class="white container" style="padding-bottom:50px; display:none">
+       <div style="padding:20%; background-image:url('images/wolf.jpg'); background-size:cover;"></div>
+       <div class="container">
+        <h5 style="margin:20px 0">What animal is this?</h5>
+        <div class="row">
+              <a href="Result.html" class="col finish s5 quizbuttons waves-effect waves-light purple btn left">A: Lion</a>
+              <a href="Result.html"  class="col finish s5 quizbuttons waves-effect waves-light purple btn right">B: Wolf</a>
+         </div>
+         <div class="row">
+               <a href="Result.html"  class="col finish s5 quizbuttons waves-effect waves-light purple btn left">c: Duck</a>
+               <a href="Result.html"  class="col finish s5 quizbuttons waves-effect waves-light purple btn right">D: Crocodile</a>
+          </div>
+          <div class="row">
+                <a href="Result.html" class="col finish s2 quizbuttons waves-effect waves-light blue btn right">Finish</a>
+                <a id = "prevbutton3" class="col next3 s2 quizbuttons waves-effect waves-light blue btn left">Previous</a>
+           </div>
+       </div>
+
+    </div>
+
+  </div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+  $("#quizstartbutton").click(function(){
+    $(".modalbg").show(300);
+  });
+
+   $(".next1").click(function(){
+    $("#q1").hide(300);
+    $("#q2").show(300);
+  });
+
+   $(".next2").click(function(){
+    $("#q2").hide(300);
+    $("#q3").show(300);
+  });
+
+    $(".next3").click(function(){
+    $("#q3").hide(300);
+    $("#q4").show(300);
+  });
+
+   $("#prevbutton1").click(function(){
+    $("#q2").hide(300);
+    $("#q1").show(300);
+  });
+
+   $("#prevbutton2").click(function(){
+    $("#q3").hide(300);
+    $("#q2").show(300);
+  });
+
+   $("#prevbutton3").click(function(){
+    $("#q4").hide(300);
+    $("#q3").show(300);
+  });
+
+   $("#close").click(function(){
+    $(".modalbg").hide(300);
+  });
+
+   
+  </script>
+  </body>
+</html>
