@@ -1,113 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>NLN Education</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>NLN Education</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- CSS  -->
+    <link href='https://fonts.googleapis.com/css?family=Luckiest Guy' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bowlby One SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Baumans' rel='stylesheet'>    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
+    
 <body>
-  <nav class="white" role="navigation" style = "box-shadow:0px 1px 11px 3px black">
-
-    <div class="nav-wrapper container">
-
-		<a id="logo-container" href="#" class="brand-logo" ><a class="blue-text bold-font text-lighten-2" style = "font-size: 32px" >NLN</a><a class="text-lighten-2 purple-text bold-font" style = "font-size: 32px">&nbspEducation</a></a>
-
-	      <ul class="right hide-on-med-and-down non-active">
-	        <li><a href="level3.html" class="purple-text text-lighten-2" style = "font-weight: bold">Level 3</a></li>
-
-	      </ul>
-        <ul class="right hide-on-med-and-down non-active">
-          <li><a href="level2.html"class="purple-text text-lighten-2" style = "font-weight: bold">Level 2</a></li>
-
-        </ul>
-        <ul class="right hide-on-med-and-down activeheader">
-          <li><a href="level1.html" class="active white-text text-lighten-2" style = "font-weight: bold">Level 1</a></li>
-
-        </ul>
-        <ul class="right hide-on-med-and-down non-active">
-          <li><a href="index.html" class="purple-text text-lighten-2" style = "font-weight: bold">Home</a></li>
-
-        </ul>
-
-	      <ul id="nav-mobile" class="sidenav">
-	               <li><a href="index.html">Home</a></li>
+    <nav class="white" role="navigation" style = "box-shadow:0px 1px 11px 3px black">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo" ><a class="blue-text bold-font text-lighten-2" style = "font-size: 32px" >NLN</a><a class="text-lighten-2 purple-text bold-font" style = "font-size: 32px">&nbspEducation</a></a>
+            <ul class="right hide-on-med-and-down non-active">
+                <li>
+                   <a href="level3.html" class="purple-text text-lighten-2" style = "font-weight: bold">Level 3</a>
+                </li>
+            </ul>
+            <ul class="right hide-on-med-and-down non-active">
+                <li><a href="level2.html"class="purple-text text-lighten-2" style = "font-weight: bold">Level 2</a></li>    
+            </ul>
+            <ul class="right hide-on-med-and-down active">
+                <li>
+                    <a href="level1.html" class="active white-text text-lighten-2" style = "font-weight: bold">Level 1</a>
+                </li>
+            </ul>
+            
+            <ul class="right hide-on-med-and-down non-active">
+                <li>
+                    <a href="index.html" class="purple-text text-lighten-2" style = "font-weight: bold">Home</a>
+                </li>
+            </ul>
+            
+            <ul id="nav-mobile" class="sidenav">
+                 <li><a href="index.html">Home</a></li>
                  <li><a href="level1.html">Level 1</a></li>
                  <li><a href="level2.html">Level 2</a></li>
                  <li><a href="level3.html">Level 3</a></li>
-	      </ul>
-	      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons blue-text text-lighten-2">menu</i></a>
-
-    </div>
-    <div class="row" id="header-bar" style="min-height:5px; z-index:9999">
-    <script>
-        window.onscroll = function() {myFunction()};
-
-        var header = document.getElementById("header-bar");
-        var sticky = header.offsetTop;
-
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
-    </script>
-       <div class="red lighten-2 col s1" style="min-height:5px"></div>
-       <div class="pink lighten-2 col s1" style="min-height:5px"></div>
-       <div class="purple lighten-2 col s1" style="min-height:5px"></div>
-       <div class="indigo lighten-2 col s1" style="min-height:5px"></div>
-       <div class="blue lighten-2 col s1" style="min-height:5px"></div>
-       <div class="cyan lighten-2 col s1" style="min-height:5px"></div>
-       <div class="teal lighten-2 col s1" style="min-height:5px"></div>
-       <div class="green lighten-2 col s1" style="min-height:5px"></div>
-       <div class="light-green accent-2 col s1" style="min-height:5px"></div>
-       <div class="lime lighten-2 col s1" style="min-height:5px"></div>
-       <div class="orange lighten-2 col s1" style="min-height:5px"></div>
-       <div class="deep-orange lighten-2 col s1" style="min-height:5px"></div>
-    </div>
-
+            </ul>
+            
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons blue-text text-lighten-2">menu</i></a>
+        </div>
+        
+<div class="row" id="header-bar" style="min-height:5px; z-index:9999">
+            
+        <script>
+            window.onscroll = function() {myFunction()};
+            var header = document.getElementById("header-bar");
+            var sticky = header.offsetTop;
+            function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+        </script>
+        <div class="red lighten-2 col s1" style="min-height:5px"></div>
+        <div class="pink lighten-2 col s1" style="min-height:5px"></div>
+        <div class="purple lighten-2 col s1" style="min-height:5px"></div>
+        <div class="indigo lighten-2 col s1" style="min-height:5px"></div>
+        <div class="blue lighten-2 col s1" style="min-height:5px"></div>
+        <div class="cyan lighten-2 col s1" style="min-height:5px"></div>
+        <div class="teal lighten-2 col s1" style="min-height:5px"></div>
+        <div class="green lighten-2 col s1" style="min-height:5px"></div>
+        <div class="light-green accent-2 col s1" style="min-height:5px"></div>
+        <div class="lime lighten-2 col s1" style="min-height:5px"></div>
+        <div class="orange lighten-2 col s1" style="min-height:5px"></div>
+        <div class="deep-orange lighten-2 col s1" style="min-height:5px"></div>
+</div>       
   </nav>
-
   <div style="padding-top:5px">
-    <div class="parallax-container">
-      <div class="parallax"><img src="images/parallax2.jpg"></div>
+    <div class="parallax-container" >
+        <div class="container" style="opacity: 0.6">   
+            <br><br><br><br><br><br><br><br>
+            <div class="container" style="cursor:pointer">
+                <a href="index.html" >
+                    <div class="white hoverable" style="min-height:50px">
+                        <body2 class="header center black-text text-lighten-2">FEATURED QUIZ</body2>
+                    </div>
+                </a>
+             </div>
+        </div>                                                                                                    
+      <div class="parallax"><img src="images//mario.jpg"></div>
     </div>
   </div>
 
- 
-  <footer class="page-footer purple lighten-1">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Group Information</h5>
-          <p class="grey-text text-lighten-4">
-            We are a group of students from FAST-NU, Lahore, working on this project for the course - Human Computer Interaction.
-          </p>
-
-
+<br>
+    
+ <div class="row hoverable" style="border-bottom-style:groove">
+    <div style="margin: 10px">
+      <div class="card purple lighten-5" >
+        <div class="card-content white-text" style="cursor: pointer">
+            <a href="index.html" >
+                <h3 class="header center red-text text-darken-10" style="font-family:'Bowlby One SC'">Check out the quizzes!</h3> 
+            </a>
         </div>
-     
       </div>
+    </div>
+     <br>
+</div>
+   
+<!--    card holder for animals-->
+    
+<div class = "container">   
+    <div class="col s12 m7">
+        <div class="card horizontal hoverable" style="cursor: pointer">
+            <div class="card-image" style="max-width: 400px">
+                <a href="index.html" >
+                  <img class = "imagecontainer" src="images/cat2.jpg"> 
+                </a>
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h5 class="header center purple-text text-lighten-2" style="font-family:'The Bold Font'">I am an interesting quiz. Filled with cool questions about animals! </h5> <h4 class="header center blue-text text-lighten-2" style="font-family:'The Bold Font'" style="border:inherit"> <br> FILL ME UP!</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!--    card holder for shapes-->
+    
+<div class = "container">  
+    <div class="col s12 m7">
+        <div class="card horizontal hoverable" style="cursor: pointer">
+            <div class="card-image" style="max-width: 400px">
+                <a href="index.html" >
+                    <img class = "imagecontainer" src="images/shape2.jpg">
+                </a>
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h5 class="header center purple-text text-lighten-2" style="font-family:'The Bold Font'">I am an interesting quiz. Filled with cool questions about shapes! </h5> <h4 class="header center blue-text text-lighten-2" style="font-family:'The Bold Font'" > <br> FILL ME UP!</h4>
+                </div>
+                <div class="card-action">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!--    card holder for vehicles-->
+    
+<div class = "container">
+    <div class="col s12 m7">
+        <div class="card horizontal hoverable" style="cursor: pointer">
+            <div class="card-image" style="max-width: 400px">
+                <a href="index.html" >
+                    <img class = "imagecontainer" src="images/cars2.jpg">
+                </a>
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h5 class="header center purple-text text-lighten-2" style="font-family:'The Bold Font'">I am an interesting quiz. Filled with cool questions about vehicles! </h5> <h4 class="header center blue-text text-lighten-2" style="font-family:'The Bold Font'" > <br> FILL ME UP!
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+<div>
+    <p style="font-family: 'The Bold Font'" class = "blue-text text-lighten-2"></p>
+</div>
+    
+    
+<footer class="page-footer purple lighten-1">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Group Information</h5>
+                <p class="grey-text text-lighten-4">
+                    We are a group of students from FAST-NU, Lahore, working on this project for the course - Human Computer Interaction.
+                </p>
+            </div>
+        </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
-      Made by: <a class="purple-text text-accent-1">Nimra Arif, Nabeel Mehmood <span class="white-text">and</span> Lalain Ahmad Khalid</a>
-      </div>
+        <div class="container">
+            Made by: <a class="purple-text text-accent-1">Nimra Arif, Nabeel Mehmood <span class="white-text">and</span> Lalain Ahmad Khalid</a>
+        </div>
     </div>
-  </footer>
+</footer>
 
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
 
-  </body>
+    </body>
 </html>
+
+
+
+<style>
+
+body2 {
+    align-content: center;
+    text-align: center;
+/*    font-family: 'Baumans';*/
+    font-size: 111px;
+    font-family: 'Luckiest Guy';
+}
+.inagecontainer {
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}</style>
+    
