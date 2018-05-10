@@ -50,7 +50,7 @@
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    padding:100px 10%;
+    padding:20px 10%;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
@@ -64,6 +64,10 @@
 
 .jumbotext:hover{
 	background-color:rgba(0,0,0,0.5) !important;
+}
+
+.quizbuttons{
+	border-radius:10px !important;
 }
 
 @media only screen and (min-width: 993px){
