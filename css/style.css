@@ -35,12 +35,12 @@
 	border-radius:50%;
 }
 
-.active{
+.activeheader{
 	background-color: #ba68c8 !important;
 	transition: 0.3s;
 }
 
-.active:hover{
+.activeheader:hover{
 	background-color: #9d53aa !important
 }
 
