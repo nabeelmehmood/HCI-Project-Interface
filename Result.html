@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -9,14 +10,20 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <script <!--type="text/javascript" language="JavaScript" src="js/jquery-3.3.1.min.js"-->>
+        $(document).ready(function () {
+            $('.collapsible').collapsible();
+        });
+    </script>
 </head>
 
 <body>
+    
   <nav class="white" role="navigation" style = "box-shadow:0px 1px 11px 3px black">
 
     <div class="nav-wrapper container" >
 
-		<a id="logo-container" style="cursor:pointer" class="brand-logo" ><a class="blue-text bold-font text-lighten-2" style = "font-size: 32px" >NLN</a><a class="text-lighten-2 purple-text bold-font" style = "font-size: 32px">&nbspEducation</a></a>
+		<a id="logo-container" style="cursor:pointer" class="brand-logo" /><a class="blue-text bold-font text-lighten-2" style = "font-size: 32px" >NLN</a><a class="text-lighten-2 purple-text bold-font" style = "font-size: 32px">&nbspEducation</a></a>
 
 	      <ul class="right hide-on-med-and-down active">
 	        <li><a href="level3.html" class="white-text text-lighten-2" style = "font-weight: bold">Level 3</a></li>
@@ -77,11 +84,63 @@
 
   <div style="padding-top:5px">
     <div class="parallax-container">
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+        </ul>
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header active">
+                    datas
+                </div>
+                <div class="collapsible-body">
+                    <p>text</p>
+                    <p>text</p>
+                    <p>text</p>
+                    <p>text</p>
+                    <p>text</p>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    geo
+                </div>
+                <div class="collapsible-body">
+                    <p>text</p>
+                    <p>text</p>
+                    <p>text</p>
+                    <p>text</p>
+                    <p>text</p>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    contact
+                </div>
+                <div class="collapsible-body">
+                    <p>text</p>
+                    <p>text</p>
+                    <p>text</p>
+                    <p>text</p>
+                    <p>text</p>
+                </div>
+            </li>
+        </ul>
         <div class="row">
             <div class="col l5 offset-l4 s10 offset-s1">
-                <a style="font-family:Calibri;font-size:40px;color:darkslateblue; font-weight:900">CONGRATULATIONS</a>
+                <a style="font-family:The Bold;font-size:40px;color:purple lighten-2; font-weight:900">CONGRATULATIONS</a>
             </div>
-            <div class="col l5 offset-l4 s10 offset-s2">
+            <div class="col l5 offset-l4 s10 offset-s1">
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <img src="images/star-icon.png" style="width:120px;height:120px;"class="rotate45">
                 <img src="images/star-icon.png" style="width:80px;height:80px;" class="rotate90">
@@ -99,6 +158,8 @@
             <a class="waves-effect waves-light btn" style="font-size:medium">Invite Friends</a>
             </div>
         </div>
+        
+
   </div>
 </div>
 
@@ -126,7 +187,7 @@
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
