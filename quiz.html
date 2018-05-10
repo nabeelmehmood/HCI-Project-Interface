@@ -26,7 +26,7 @@
           <li><a href="level2.hmtl"class="purple-text text-lighten-2" style = "font-weight: bold">Level 2</a></li>
 
         </ul>
-        <ul class="right hide-on-med-and-down active">
+        <ul class="right hide-on-med-and-down activeheader">
           <li><a href="level1.html" class="white-text text-lighten-2" style = "font-weight: bold">Level 1</a></li>
 
         </ul>
@@ -75,80 +75,25 @@
     </div>
 
   </nav>
+  <div class="container" >
+    <div class="row">
+      <h1 class="bold-font purple-text">Quiz</h1>
+      <div style=" padding:14% 5%; background-image:url('images/parrots.jpg'); background-size:cover">
+          <h1 class="bold-font white-text" style="margin:0">Animals</h1>
 
-  <div style="padding-top:5px">
-    <div class="parallax-container">
-      <div class="parallax"><img src="images/parallax1.jpg"></div>
-    </div>
-  </div>
-
-  <div class="section no-pad-bot" id="index-banner">
-  <div class="container">
-    <br><br>
-    <h3 class="header center purple-text text-lighten-2" style="font-family:'The Bold Font'">Select Difficulty Level</h3>
-    <br><br>
-
-  </div>
-
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4" href="level1.html" style="cursor:pointer" onclick="location.href='level1.html';" >
-          <div class="icon-block">
-          <h4 class="center ">Level 1</h4>
-            <div class="center">
-                <img class="rounded-image" style="width:60%" src="images/age4-6.jpg">
-            </div>
-            <h5 class="center blue-text">Age 4-6</h5>
-
-
-            <p class="light">Easy quizzes for young children aged, 4-6 years. Topics related to 
-            <li class="light">Animals</li>
-            <li class="light">Vehicles</li>
-            <li class="light">Shapes</li></p>
-          </div>
-        </div>
-
-        <div class="col s12 m4" href="level2.html" style="cursor:pointer" onclick="location.href='level2.html';">
-          <div class="icon-block">
-          <h4 class="center ">Level 2</h4>
-
-          <div class="center">
-              <img class="rounded-image" style ="width:60%" src="images/age7-9.jpg">
-          </div>
-          <h5 class="center blue-text">Age 7-9</h5>
-
-           <p class="light">Quizzes for young children aged, 7-9 years. Topics related to 
-            <li class="light">Basic math</li>
-            <li class="light">Science</li>
-            <li class="light">Language</li></p>
-          </div>
-        </div>
-
-        <div class="col s12 m4" href="level3.html" style="cursor:pointer" onclick="location.href='level3.html';">
-        <h4 class="center ">Level 3</h4>
-
-          <div class="icon-block">
-          <div class="center">
-              <img class="rounded-image" style ="width:60%" src="images/age10.jpg">
-          </div>
-            <h5 class="center blue-text">Age 10+</h5>
-
-           <p class="light">Challenging quizzes for young children aged 10 years and over. Topics related to 
-            <li class="light">Math</li>
-            <li class="light">World History</li>
-            <li class="light">General Knowledge</li></p>
-          </div>
-        </div>
       </div>
-
     </div>
-    <br><br>
+    <h5 style="margin:30px 0">Can you guess the all these animals correctly? Lets find out!</h5>
+    <div class="center row" style="padding-top:10px; margin-bottom:50px">
+      <a id="quizstartbutton" class="waves-effect waves-light purple btn-large" style="width:100%">Start Quiz</a>
+    </div>
   </div>
+  
+
+  <div>
+
+  </div>
+
 
   <footer class="page-footer purple lighten-1">
     <div class="container">
@@ -172,10 +117,25 @@
   </footer>
 
 
+  <div class="modalbg">
+    <div id="q1" class="white container">
+      <div style="padding:20%; background-image:url('images/lion.jpg'); background-size:cover"></div>
+      <div class="container">
+       <h5>What animal is this?</h5>
+       
+      </div>
+    </div>
+
+  </div>
+
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
+  <script>
+  $("#quizstartbutton").click(function(){
+    $(".modalbg").show(300);
+  });
+  </script>
   </body>
 </html>
